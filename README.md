@@ -1,3 +1,5 @@
+<img src="media/giphy-visual.gif" alt="GIF de distorsión visual">
+
 # Bitácora
 
 > Francisco Arturo Benavides Riquelme

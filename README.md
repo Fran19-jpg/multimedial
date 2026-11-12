@@ -1,64 +1,112 @@
-```html
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ejercicios Multimedial</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
+# Bitácora
 
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #f4f5f7;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+> Francisco Arturo Benavides Riquelme
 
-      .container {
-        text-align: center;
-        padding: 20px;
-      }
+## Página web
 
-      h1 {
-        margin: 0;
-        color: #1f5eea;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        font-weight: 700;
-      }
+Primero hicimos una página web en GitHub y fuimos aprendiendo poco a poco cómo utilizar el programa; esta fue la página que hice yo.
 
-      .subtitle {
-        margin-top: 18px;
-        color: #1ca75d;
-        font-size: clamp(1.1rem, 2vw, 1.8rem);
-        font-weight: 500;
-      }
+[Ver mi página](https://fran19-jpg.github.io/multimedial/w/index.html)
 
-      .description {
-        margin-top: 18px;
-        max-width: 900px;
-        color: #d72626;
-        font-size: 0.9rem;
-        line-height: 1.3;
-        font-style: italic;
-        text-align: justify;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Ejercicios Multimedial</h1>
-      <div class="subtitle">ejercicio 1, semana 1</div>
-      <p class="description">
-        Los primeros ejercicios fueron sobre buscar y, finalmente, lograr encontrar un tema sobre lo que queríamos hacer. Lo que íbamos a hacer era una página web. Muchos decidieron hacer una especie de portafolio de artista, pero yo ya tenía uno en página web, así que hice una página que fuera una pequeña obra en sí misma sobre dictadores antiguos que partió siendo el tema de mi tesis de mis primeras obras. Algunos de estos dictadores eran déspotas ficticios y otros históricos; reuní imágenes de estas personas y escogí las que más me gustaban.
-      </p>
-    </div>
-  </body>
-</html>
+---
+
+## Touch Designer
+
+### Experimentación
+
+Luego hicimos ejercicios en Touch Designer, un programa de edición de video, y estos fueron algunos de mis resultados.
+
+Este resultado fue la base para mi proyecto final, donde llevé esas pruebas a una idea más compleja y expresiva.
+
+Exploré la distorsión visual, la interferencia y la percepción de la realidad.
+
+A partir de estas pruebas, desarrollé una propuesta más clara y más intensa.
+
+[Descargar archivo Touch](files/archivo-touch.toe)
+
+---
+
+## Inteligencia artificial
+
+### Experimentación con IA
+
+#### Imágenes generadas
+
+Luego usamos Comfy para generar imágenes con IA; aquí están mis resultados.
+
+[Ver resultados](https://drive.google.com/drive/folders/1UK8mEanDISQHmxmBUMvyscWsUJ8UG1vo?usp=sharing)
+
+---
+
+## Resultado final
+
+### Touch Designer
+
+#### Vídeo distorsionado
+
+Luego de mucho esfuerzo y sudor, llegué al resultado final: un video distorsionado con audio, el cual trata sobre un ser humano con locura hablando locura; el video se ve interferido para que sus locuras no puedan ser transmitidas, haciendo como si el loco tuviera la razón y una tecnología superior lo estudiara, silenciando esta idea. Esta obra se relaciona con mi investigación de este año, donde exploro la alteración de la verdad y la modificación de los relatos, siendo vistos desde distintos puntos de vista. En este caso, la obra se ve desde el punto de vista del «locuto» que cree que tiene la razón.
+
+- [Guion](files/guion-resumen.txt)
+- [Ver proyecto](files/obra-touchdesigner.toe)
+
+---
+
+## Bitácora
+
+### Guardar entrada
+
+Esta sección permite guardar una entrada localmente en el navegador.
+
+- Fecha
+- Título
+- Descripción
+
+Ejemplo de entrada:
+
+- 12/11/2026 — Reunión de equipo
+- Descripción: Trabajamos en el proyecto de la página web y ajustamos el diseño.
+
+---
+
+## Archivos del proyecto
+
+- [index.html](index.html) — página principal
+- [styles.css](styles.css) — estilos visuales
+- [script.js](script.js) — lógica de la bitácora
+- [media/giphy-visual.gif](media/giphy-visual.gif) — GIF del encabezado
+- [files/archivo-touch.toe](files/archivo-touch.toe) — archivo Touch Designer de prueba
+- [files/obra-touchdesigner.toe](files/obra-touchdesigner.toe) — proyecto final
+- [files/guion-resumen.txt](files/guion-resumen.txt) — texto del guion o resumen
+
+---
+
+## Cómo abrir el proyecto
+
+Puedes abrir la carpeta localmente en un navegador o ejecutarla con Python:
+
+```bash
+python -m http.server 8000
 ```
 
+Después visita:
+
+```text
+http://localhost:8000/
+```
+
+---
+
+## GitHub
+
+Si quieres subir este proyecto a GitHub, usa estos pasos:
+
+```bash
+git init
+git add .
+git commit -m "Primer commit"
+git branch -M main
+git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git push -u origin main
+```
+
+Este README ya funciona como una versión textual de la página para poder verla solo escrita en Markdown.

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitacora</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <div class="top-media">
+        <img
+          src="media/giphy-visual.gif"
+          alt="GIF de distorsión visual"
+        />
+      </div>
+
+      <header class="hero-card">
+        <p class="eyebrow">Francisco Arturo Benavides Riquelme</p>
+        <h1>Bitacora</h1>
+        <p class="subtitle">Página web</p>
+
+        <p class="description">
+          Primero hicimos una página web en GitHub y fuimos aprendiendo poco a poco cómo utilizar el programa;
+          esta fue la página que hice yo.
+        </p>
+
+        <a
+          class="link-button"
+          href="https://fran19-jpg.github.io/multimedial/w/index.html"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ver mi página
+        </a>
+      </header>
+
+      <section class="info-card">
+        <p class="section-tag">Touch Designer</p>
+        <h2>Experimentacion</h2>
+        <p class="description">
+          Luego hicimos ejercicios en Touch Designer, un programa de edición de video, y estos fueron algunos de
+          mis resultados.
+        </p>
+        <p class="description">
+          Este resultado fue la base para mi proyecto final, donde llevé esas pruebas a una idea más compleja y
+          expresiva.
+        </p>
+        <p class="description small-fill">
+          Exploré la distorsión visual, la interferencia y la percepción de la realidad.
+        </p>
+        <p class="description small-fill">
+          A partir de estas pruebas, desarrollé una propuesta más clara y más intensa.
+        </p>
+
+        <a
+          class="link-button secondary-button"
+          href="files/archivo-touch.toe"
+          download="archivo-touch.toe"
+        >
+          Descargar archivo Touch
+        </a>
+      </section>
+
+      <section class="info-card">
+        <p class="section-tag">Inteligencia artificial</p>
+        <h2>Experimentación con IA</h2>
+        <p class="subtitle small-subtitle">Imágenes generadas</p>
+        <p class="description">
+          Luego usamos Comfy para generar imágenes con IA; aquí están mis resultados.
+        </p>
+
+        <a
+          class="link-button tertiary-button"
+          href="https://drive.google.com/drive/folders/1UK8mEanDISQHmxmBUMvyscWsUJ8UG1vo?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ver resultados
+        </a>
+      </section>
+
+      <section class="info-card final-card">
+        <p class="section-tag">Resultado final</p>
+        <h2>Touch Designer</h2>
+        <p class="subtitle small-subtitle">Vídeo distorsionado</p>
+        <p class="description">
+          Luego de mucho esfuerzo y sudor, llegué al resultado final: un video distorsionado con audio, el cual
+          trata sobre un ser humano con locura hablando locura; el video se ve interferido para que sus locuras no
+          puedan ser transmitidas, haciendo como si el loco tuviera la razón y una tecnología superior lo estudiara,
+          silenciando esta idea. Esta obra se relaciona con mi investigación de este año, donde exploro la alteración
+          de la verdad y la modificación de los relatos, siendo vistos desde distintos puntos de vista. En este caso,
+          la obra se ve desde el punto de vista del «locuto» que cree que tiene la razón.
+        </p>
+
+        <div class="final-links">
+          <a
+            class="link-button quaternary-button"
+            href="files/guion-resumen.txt"
+            download="guion-resumen.txt"
+          >
+            Guion
+          </a>
+          <a
+            class="link-button quaternary-button"
+            href="files/obra-touchdesigner.toe"
+            download="obra-touchdesigner.toe"
+          >
+            Ver proyecto
+          </a>
+        </div>
+      </section>
+
+      <section class="info-card save-card">
+        <p class="section-tag">Bitácora</p>
+        <h2>Guardar entrada</h2>
+
+        <form id="entry-form" class="entry-form">
+          <div class="field">
+            <label for="date">Fecha</label>
+            <input id="date" name="date" type="date" required />
+          </div>
+
+          <div class="field">
+            <label for="title">Título</label>
+            <input id="title" name="title" type="text" placeholder="Ej. Reunión de equipo" required />
+          </div>
+
+          <div class="field">
+            <label for="content">Descripción</label>
+            <textarea id="content" name="content" rows="4" placeholder="Escribe lo más importante..." required></textarea>
+          </div>
+
+          <button type="submit" class="link-button save-button">Guardar</button>
+        </form>
+
+        <ul id="entries-list" class="entries-list"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
